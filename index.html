@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Rye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <section id="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-2">
+                    <p class="intro">This is a guessing game.Suppose you are player 1 and your friend is player 2,Player 1 will select a 4 digit number and Player 2 has to guess it right to win! </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section id="Game">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="playerOne">
+                        <h2>Player One</h2>
+                        <input type="password" class="playerOneInput">
+                        <button class="playerOneBtn">Start</button>
+                        <p class="playerOneError"></p>
+                    </div>
+                    <div class="playerTwo">
+                        <h2>Player Two</h2>
+                        <input type="password" class="playerTwoInput">
+                        <button class="playerTwoBtn">Start</button>
+                        <div class="trial"><span>Trials left-</span>3</div>
+                        <p class="playerTwoError"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+
+
+
+    <script src="js/game.js"></script>
+</body>
+</html>
